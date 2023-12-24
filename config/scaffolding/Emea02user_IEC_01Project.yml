@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/AvivSimDS/Emea02user_IEC_01Project
   gitUsername: AvivSimDS
   gitBranch: main
+services:
+- serviceName: project.emea02user_iec_01.integrations:user02emea_concat_names
+  packages:
+  - name: Emea02user_IEC_01Project
+    version: "1.0"

@@ -113,9 +113,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">emea02user</value>
-    <value name="createdDate">1703418784163</value>
-    <value name="lastModifiedDate">1703418784163</value>
+    <value name="lastModifiedBy">emea02user</value>
+    <value name="lastModifiedDate">1703418836286</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -142,6 +141,34 @@
         </array>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
+        <value name="itemType">SERVICES</value>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">concat</value>
+          <value name="serviceName">pub.string:concat</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupName">string</value>
+          <value name="groupDisplayName">String</value>
+        </record>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
+      </record>
+      <record name="/1/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
